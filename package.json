@@ -57,7 +57,7 @@
     "build:prod": "webpack --mode=production",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "lint:fix": "yarn lint --fix",
-    "start": "webpack serve --mode=development",
+    "start": "react-scripts --openssl-legacy-provider start",
     "test": "jest"
   },
   "eslintConfig": {
